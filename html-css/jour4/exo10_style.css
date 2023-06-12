@@ -1,0 +1,22 @@
+table {
+    border-style:solid;
+    border: ridge 10px rgb(59, 53, 53);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    border-style: solid;
+    border-width: 2px;
+    background-color:green;
+    }
+
+td {
+    border-style: solid;
+    border-width: 2px;
+}
+
+caption {
+    color: rgb(160, 49, 5);
+    font-size: 2em;
+}

@@ -1,0 +1,12 @@
+*{
+    background-color: purple;
+}
+
+div {
+    height: 500px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 400px;
+    box-shadow: -8px -10px 10px 6px white, 10px 10px 10px 6px black; 
+    background-color: cyan;
+}

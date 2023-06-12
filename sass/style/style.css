@@ -1,0 +1,39 @@
+.socialNetwork {
+  display: flex;
+  justify-content: flex-end;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: helvetica, verdana, arial, sans-serif;
+  color: orange;
+}
+
+h1 {
+  color: orange;
+  text-decoration: underline rgb(30, 30, 91);
+}
+
+p {
+  color: black;
+}
+
+.article {
+  border: solid 2px black;
+}
+.article__h3 {
+  text-decoration: underline;
+  color: rgb(30, 30, 91);
+}
+.article__h3--active {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

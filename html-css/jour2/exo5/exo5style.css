@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+    background: center;
+    font-size: 3em;
+}
+
+h3 {
+    color: blue;
+    font-size: 2em;
+
+}
+
+p {
+    background-color: pink;
+}
+
+.gris {
+    background-color: lightgray;
+}
+
+strong {
+    font-weight: 400;
+    color: yellowgreen;
+}
+
+em {
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 1.5em;
+    color: orange;
+}
+
+#vert {
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}

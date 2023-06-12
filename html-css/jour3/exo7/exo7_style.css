@@ -1,0 +1,12 @@
+li:nth-child(even) {
+    color: red;
+}
+
+ul:hover li:nth-child(even) {
+    color: black;
+}
+
+ul:hover li:nth-child(odd) {
+    color: red;
+}
+

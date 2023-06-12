@@ -1,0 +1,94 @@
+.dice{
+    border: 2px red solid;
+    border-radius: 25px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px red solid;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#d1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#d2{
+    display:flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+#d3{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+ 
+#d4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#d4 :first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#d4 :last-child{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+#d5 {
+    display: flex;
+    justify-content: space-around;
+   
+ 
+}
+
+#d5 :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#pute{
+    display: flex;
+    justify-content: center;
+}
+
+#d5 :nth-child(3){
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#d6{
+    display: flex;
+    justify-content: space-around;
+}
+
+#d6 :first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#d6 :last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

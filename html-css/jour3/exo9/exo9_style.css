@@ -1,0 +1,49 @@
+.color {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px;
+    background-image: linear-gradient(to right bottom, red, green, blue);
+}
+
+.color + div {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px;
+    background-image: linear-gradient(-70deg, yellow, purple 25% ) ;
+}
+
+p {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px;
+    background-image: linear-gradient(white,rgba(0,0,0,0.5) );
+}
+
+.circle {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px;
+    background: radial-gradient(rgb(118, 118, 228), pink ) ;
+}
+
+.circle + div {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px;
+    background: repeating-radial-gradient(black, black 5px, white 10px, white 5px) ;
+}

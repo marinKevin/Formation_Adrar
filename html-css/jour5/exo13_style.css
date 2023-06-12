@@ -1,0 +1,27 @@
+form{
+    height: 250px;
+    width: 400px;
+    background-color: lightgrey;
+    border: solid 2px black;
+}
+legend{
+    font-size: 2em;
+    font-weight:bold;
+    margin: 30px 100px;
+}
+div:first-child{
+    margin-left: 30px;
+}
+label{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+input{
+    margin-top:10px;
+}
+div:last-child{
+    margin:10px 30px 20px 135px;
+}
+div:last-child + input :hover{
+    color: rgb(49, 49, 49);
+}

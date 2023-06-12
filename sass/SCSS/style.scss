@@ -1,0 +1,34 @@
+@import 'utils/variable';
+@import 'utils/mixins';
+@import 'utils/extends';
+@import 'base/base'; 
+
+  h1{
+    color: $primaryColor;
+    text-decoration: underline $secondaryColor;
+  }
+
+  p{
+    color : $textColor;
+  }
+
+  .article{
+    border: solid 2px black;
+    &__h3{
+        text-decoration: underline;
+        color: $secondaryColor;
+        &--active{
+            color: red;
+        }
+    }
+    
+    
+  }
+
+  .socialNetwork{
+    @extend %flexcard;
+  }
+
+  section{
+    @extend %flexcard;
+  }
