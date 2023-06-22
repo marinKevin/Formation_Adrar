@@ -1,6 +1,41 @@
-table {
-    border-style:solid;
-    border-collapse: collapse;
-    text-align: center;
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format(truetype);
 }
 
+main {
+    width: 75%;
+    margin: auto;
+    background-color:#003A6A;
+
+}
+#tableau {
+    font-family:'Montserrat',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9CF00;
+
+}
+
+table {
+    border:solid 2px white;
+    border-collapse: collapse;
+    text-align: center;
+    width: 700px;
+    margin: 50px;
+
+
+}
+
+th {
+    border: solid 2px white ;
+    height: 50px;
+}
+
+
+caption {
+    font-size: 2em;
+    margin: 20px;
+}
