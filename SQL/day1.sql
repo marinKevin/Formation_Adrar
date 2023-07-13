@@ -35,3 +35,6 @@ create table Order1 (
     );
 create table Product (
 	ref_product foreign key 
+    
+create database judoka;
+use judoka;
