@@ -30,3 +30,5 @@ for(let element in objetUser){
         }
     }
 }
+// Technique de Laurent pour resortir un objet contenue dans un autre objet.
+

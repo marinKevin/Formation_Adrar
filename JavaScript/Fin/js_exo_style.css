@@ -1,0 +1,43 @@
+.maCouleur{
+    color:yellow;
+}
+
+/* h3{
+    display: none;
+} */
+
+.boxBar {
+    width: 100%;
+    border: 5px solid blueviolet;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.bar {
+    height: 21px;
+    background: turquoise;
+    width: 0%;
+}
+
+body {
+    min-height: 5000px;
+}
+
+#secondadryTitle{
+    /* transition: 5s; */
+    opacity: 0; 
+}
+
+VANTA.CLOUDS({
+    el: "#your-element-selector",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    skyColor: 0x1e9fe6,
+    cloudColor: 0xc5cdcd,
+    cloudShadowColor: 0xadb4be,
+    speed: 0.50
+  })
