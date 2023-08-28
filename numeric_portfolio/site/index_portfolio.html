@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.portfolio.css">
+    <title>Portfolio Marin</title>  
+</head>
+<body>
+
+    <div id="fond_3d"></div>
+    <div id="holo"><img src="img/holo8.gif" alt="holograme"></div>
+
+    <nav>
+        <h1>MON PORTFOLIO <br>DE DEVELOPPEUR WEB</h1>
+        <div class="navi" id="kevin_nav"><h2>Kevin Marin</h2></div>
+        <div class="navi" id="skills_nav"><h2>hard skills / soft skills</h2></div>
+        <div class="navi" id="projets_nav"><h2>Mes projets</h2></div>
+        <div class="navi" id="cv_nav"><h2>Curriculum vitae</h2></div>
+        
+    </nav>
+
+    <div id="documentation">
+
+        <section id="kevin_docu">
+            <div class="docu">
+                <h3>Kevin Marin<br></h3>
+                <p>Nouveau dans le domaine du Web, je découvre les grandes possiblitées du developpement avec un regard curieux.<br></p>
+                   <p> Aprés un parcours de dix années le domaine de la restauration, du traditionnel au gastronomique étoilé 
+                    j'ai eu de nombeuses ocasions de travailler ma créativité et mon sense du design c'est ainsi naturellement que je m'épanouie dans le développement Front.
+                    Cepandant peut-être encore plus intéréssé par la logique du Back je me suis fixé comme objectif de devenir développeur Full Stack confirmé.<br></p>
+                    <p>Désireux d'apprendre tous les aspects je serai heureux de vous aider sur votre projet, qu'il soit côté client ou serveur.</p>
+            </div>
+            <div class="docu">
+                <h3>Contacts</h3>
+                <h4>Tel: 0641379436</h4>
+                <h4>Mail: marin.djeddah@gmail.com</h4>
+                <h4>Postal: 2 chemin des côtes de Pech David 31400 Toulouse</h4> 
+            </div>
+        </section>
+
+        <section id="skills_docu">
+            <div>
+                <h3>Hard skills</h3>
+                <div>
+                    <h4>Langages</h4>
+                    <ul>
+                        <li>Symfony</li>
+                        <li>Vue</li>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>SASS</li>
+                        <li>SQL</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Logiciels</h4>
+                    <ul>
+                        <li>Git</li>
+                        <li>Visual Studio Code</li>
+                        <li>PhotoShop</li>
+                        <li>My SQL Workbench</li>
+                        <li>Figma</li>
+                        <li>Balsamiq Wireframes</li>
+                        <li>Star UML</li>
+                        <li>Looping</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h3>Soft skills</h3>
+                <ul>
+                    <li>Travail en équipe</li>
+                    <li>Créativité</li>
+                    <li>Rigueur</li>
+                    <li>Capacité d'adaptation</li>
+                    <li>Travail sous la pression</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projets_docu">
+            <div class="card_projet" id="vide_ton_frigo">
+                <h4>Site : Vide ton frigo</h4>
+                <img src="img/logo_test1.png" alt="logo">
+            </div>
+            <div class="card_projet" id="jeu">
+                <h4>Jeu : à venir</h4>
+            </div>
+        </section>
+        <section id="page_site_frigo">
+            <div id="frigo1">
+                <h3>Site de recettes de cuisine</h3>
+                <h4>Nom : Vide ton frigo</h4>
+            </div>
+            <p id="frigo2">Le site vite ton frigo a pour but d’aider les utilisateurs à trouver des recettes adéquates avec
+                 les ingrédients présents dans leurs frigo.<br>
+                 Grâce à une barre de recherche qui retrouve des recettes dans une base de donnée, 
+                 l’utilisateur tape les ingrédients qu’il possède et accède directement aux recettes possibles à réaliser avec ceux-ci.<br>
+                La caractéristique intéréssante du site sera son filtre de recherche qui permettra aussi bien de récupérer des recettes en fonction de ses ustensiles de cuisine 
+                ou de trier les reçettes par les DLC les plus courtes(Date limite de conservation) et d'autres filtres ... <br>
+                Le design dans le style d'un cahier de reçette s'organisera de façon très minimaliste, pour que l'utilisateur 
+                ne se détourne pas de ça tache et utilise la fonctionnalité jusqu'au bout. <br>
+                Se démarquant ainsi des autres sites de reçette agréssant souvent les utilisateurs avec des reçettes dans tous les coins de la page.</p>
+            <div id="frigo3">
+                <h4>Statut : en cours de réalisation</h4>
+                <h4>Lien : Indisponible </h4>
+            </div>
+            <img id="frigo4" class="img_frigo" src="img/Capture d'écran 2023-07-11 165311.png" alt="wireframe">
+            <img id="frigo5" class="img_frigo" src="img/Capture d'écran 2023-07-11 161701.png" alt="moodbord">
+        </section>
+
+        <section id="cv_docu">
+            <img src="img/img_cv_08_2023.png" alt="curriculum vitae">
+            <div><a id="btn_cv" href="cv_08_2023.pdf"  target="_blank">pdf</a></div>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+    <script>
+    VANTA.DOTS({
+    el: "#fond_3d",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xff2020,
+    color2: 0xff2020,
+    backgroundColor: 0x0,
+    size: 6.00,
+    spacing: 32.00
+    })
+    </script>
+    <script src="scipt_portfolio.js"></script>
+</body>
+</html>

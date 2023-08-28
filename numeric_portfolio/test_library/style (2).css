@@ -1,0 +1,33 @@
+
+.bidon{
+    background-color: aqua;
+}
+.macouleur{
+    color:red;
+    background-color: blue;
+}
+/* h3{
+    display:none;
+} */
+.boxBar {
+    width: 100%;
+    border: 5px solid blueviolet;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.bar {
+    height: 21px;
+    background: turquoise;
+    width: 0%;
+}
+h2{
+    display:none;
+}
+/* .my-3 {
+    display :none;
+}
+.allText{
+    display:none;
+} */
