@@ -1,0 +1,28 @@
+Exercice 1 :
+- Choisir un nombre compris entre 0 et 999
+- A l’aide d’une boucle while, effectuez des tirages aléatoires (utilisation de la fonction PHP « rand() » jusqu’à trouver le bon nombre. 
+- Affichez le nombre d’itérations nécessaires pour trouver le nombre
+
+Exercice 2 :
+- Choisir un nombre de lignes
+- Choisir un nombre de colonnes
+- A l’aide de boucles « for », obtenez le résultat suivant : 
+0000000000
+1111111111
+2222222222
+3333333333
+4444444444
+5555555555
+6666666666
+ 
+Exercice 3 :
+- Ecrivez des boucles qui affichent ce qui est demandé
+- Le nombre de colonne à afficher dépend du n° de ligne, à la ligne i, il faut afficher i colonnes.
+- Le résultat attendu est celui-ci :
+1
+22
+333
+4444
+55555
+666666
+7777777
