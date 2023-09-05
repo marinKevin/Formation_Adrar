@@ -1,0 +1,135 @@
+@import 'utils/extentions';
+
+// STRUCTURE
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: 
+  linear-gradient(transparent 11px,
+    rgba(0, 0, 0, 0.6) 12px,
+    transparent 12px),
+  linear-gradient(90deg,
+    transparent 11px,
+    rgba(0, 0, 0, 0.6) 12px,
+    transparent 12px);
+  background-size: 100% 12px, 12px 100%;
+}
+// #container{
+//     height: 100%;
+// }
+main{
+    min-height: 100%;
+    max-height: 100%;
+    position: relative;
+
+    padding-bottom: 10vh;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #42564e;
+}
+// DROPDOWN MENU
+#menu{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+.btn_menu{
+    @extend%style_menu;
+    height: 80px;
+    width: 80px;
+}
+
+// TO CHANGE
+
+#container_toChange{
+    @extend%style_menu;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 90px;
+    width: 250px;
+    height: auto;
+}
+// #links_toChange a faire !!!!!
+
+// ELEMENTS
+
+#logo{
+    position: absolute;
+    z-index: 0;
+    right: 0.5vw;
+    top: 0.5vh;
+    height: 32vw;
+    width: 32vw;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+};
+
+
+#section_central{
+    position: absolute;
+    z-index: 1;
+    width: auto;
+    height: auto;
+    top: 40vh;
+    right: 5vw;
+    left: 5vw;
+    background-color: 	rgba(255,255,255,0.8);
+    border-radius: 10px;
+    border: solid 3px #42564e;
+    box-shadow: 6px 6px 5px rgba(0,0,0,0.6);
+    
+}
+#titre_formulaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 8px 0 8px 0;
+}
+#formulaire{
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;      
+}   
+
+
+input[type=search]{
+    @extend%input_champ;
+    width: 80%;
+}
+input[type=date]{
+    @extend%input_champ;
+}
+button{
+    @extend%button_classic;
+}
+#btn_add{
+    @extend%button_classic;
+    background-color: white;
+    border: solid 2px #42564e;
+    color: black;
+}

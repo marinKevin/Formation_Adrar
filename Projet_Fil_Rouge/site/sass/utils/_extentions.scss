@@ -1,0 +1,25 @@
+%button_classic{
+    padding: 8px;
+    border-radius: 30px;
+    margin: 3px;
+    background-color: #591C33;
+    color: white;
+    border: none;
+}
+
+%input_champ{
+    border-radius: 5vw;
+    max-width: 1000px;
+    padding: 0.5vh 2vw 0.5vh 2vw;
+    background-color: #42564E ;
+    color: white;
+    border: none;
+}
+
+%style_menu{
+    margin: 3px;
+    background-color: rgb(66,86,78,0.95);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 6px 6px 5px rgba(0,0,0,0.5);
+}

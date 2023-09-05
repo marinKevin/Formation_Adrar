@@ -3,20 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_projetFilRouge.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="sass/main.css">
+    <title>Vide ton frigo</title>
 </head>
 <body>
-    <header>
-        <nav> </nav>
-        <div class="logo"><img src="photo/logo_test1.png" alt="logo de vide ton frigo"/></div>
-    </header>
-    <main>
-        <h2>Qu'as tu dans ton frigo ?</h2>
-    </main>
-    <footer>
-        <h3>Tout droits réservés 2023</h3>
-    </footer>
+    <div id="container">
+        <main>
+            <div id="menu">
+                <button class="btn_menu">icone_menu</button>
+                <button class="btn_menu">filtre</button>
+                <button class="btn_menu">ingredients</button>
+            </div>
+
+            <div id="container_toChange">
+                <div class="toChange" id="links_toChange">
+                    <a href="">Recherche</a>
+                    <a href="">Carnet de recettes</a>
+                    <a href="">À propos de moi</a>
+                    <a href="">Contactez-moi</a>
+                </div>
+                <div class="toChange" id="filter_toChange"></div>
+                <div class="toChange" id="ingredient_toChange"></div>
+            </div>
+
+            <div id="logo"><img src="photo/logo_test1.png" alt="logo de vide ton frigo"/></div>
+            <section id="section_central">
+                <div id="formulaire">
+                    <div id="titre_formulaire"><h2>Quel sont tes ingrédients </h2></div>
+                    <form method="post" action="#">
+                                <input type="search" name="search" placeholder="Recherche" id="search">
+                            <div>
+                                <label for="dlc">DLC</label>
+                                <input type="date" name="dlc" id="dlc">
+                                <button id="btn_add">Ajouter</button>
+                            </div>
+                            <button type="submit">Lancer la recherche</button>
+                    </form>
+                </div>
+            </section>
+            
+        </main>
+        <footer>
+            <h3>Tout droits réservés 2023</h3>
+            <a href="">Menions Légales</a>
+        </footer>
+    </div>
 
 </body>
 </html>
+
+
+
+
+
+
