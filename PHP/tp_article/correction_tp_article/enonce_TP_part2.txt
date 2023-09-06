@@ -1,0 +1,15 @@
+a) Créer une page list_articles.php
+
+
+b)	Ajouter le script php permettant de se connecter à la base de données articles
+
+
+c)	Ajouter un script permettant de récupérer tous les articles (sql select)
+
+d) Formater le résultat de la requête (dans le résultat de la boucle while) pour quelle l’affiche sous cette forme :
+        <p>numéro de  l’article : id de l’article n</p>
+        <br>
+        <p>nom de l’article : nom de l’article n</p>
+        <br>
+        <p>contenu de l’article : contenu de l’article n</p>
+        <br>
