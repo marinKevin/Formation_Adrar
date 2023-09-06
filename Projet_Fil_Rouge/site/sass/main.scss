@@ -20,15 +20,14 @@ body{
     transparent 12px);
   background-size: 100% 12px, 12px 100%;
 }
-// #container{
-//     height: 100%;
-// }
+
 main{
     min-height: 100%;
     max-height: 100%;
     position: relative;
 
     padding-bottom: 10vh;
+
 }
 footer{
     position: absolute;
@@ -50,6 +49,15 @@ footer{
     @extend%style_menu;
     height: 80px;
     width: 80px;
+}
+#links_toChange{
+    display: none;
+}
+#filter_toChange{
+    display: none;
+}
+#ingredient_toChange{
+    display: none;
 }
 
 // TO CHANGE
