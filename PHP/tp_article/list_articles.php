@@ -23,9 +23,11 @@
 
             $req->execute();
             while($donnees = $req->fetch()){
-                echo '<p>' . $donnees['nom_article'] . '</p><br>';
-                echo '<p>' . $donnees['contenu_article'] . '</p><br>';
-                echo '<p>' . $donnees['id_article'].  '</p><br>';
+                ?>
+                <a href="articles.php?id_article=<?= $donnees["id_article"]?>"><?php echo $donnees["nom_article"] ?> </a><br>;
+                <p><?  $donnees['contenu_article'] ?></p><br>;
+                <p><? $donnees['id_article'] ?>  </p><br>;
+                <?php
             }
             $req2 = 'CREATE TABLE categorie (
                 id_category INT AUTO_INCREMENT PRIMARY KEY NOT NULL,

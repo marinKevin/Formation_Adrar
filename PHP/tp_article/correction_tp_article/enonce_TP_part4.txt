@@ -1,0 +1,7 @@
+* Modifier l'appli de gestion des articles :
+	* Créer une table catégorie (id auto increment, nom categorie (varchar 50))
+	* créer une relation many to one entre la table article et la table categorie (1 catégorie peut etre associée à plusieurs articles mais un article n'a qu'une seule catégorie)
+	* Créer une page home avec des liens vers les différents formulaires
+	* créer un form d'ajout de catégorie
+	* dans le form d'ajout d'article : récupérer les catégories dans un ''select''
+	* Dans la liste des articles, ajoutez un lien sur le titre de l'article pour l'envoyer vers le form de modification d'article (même form que le form de création : utiliser un input hidden pour savoir si on est en ajout ou en modification)

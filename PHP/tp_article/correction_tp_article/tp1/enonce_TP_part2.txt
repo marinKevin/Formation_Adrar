@@ -1,3 +1,6 @@
+a) Creer une page d'accueil avec un lien pointant vers le formulaire de création d'articles et
+un lien vers la page listant les articles.
+
 a) Créer une page list_articles.php
 
 
