@@ -7,23 +7,22 @@
     <title>Vide ton frigo</title>
 </head>
 <body>
-    <div id="container">
         <main>
-            <div id="menu">
-                <button class="btn_menu">icone_menu</button>
-                <button class="btn_menu">filtre</button>
-                <button class="btn_menu">ingredients</button>
+            <div id="menu" class="inner_menu">
+                <button class="btn_menu" id="links_menu">icone_menu</button>
+                <button class="btn_menu" id="filter_menu">filtre</button>
+                <button class="btn_menu" id="ingredient_menu">ingredients</button>
             </div>
 
-            <div id="container_toChange">
+            <div id="container_toChange" class="inner_menu">
                 <div class="toChange" id="links_toChange">
                     <a href="">Recherche</a>
                     <a href="">Carnet de recettes</a>
                     <a href="">À propos de moi</a>
                     <a href="">Contactez-moi</a>
                 </div>
-                <div class="toChange" id="filter_toChange"></div>
-                <div class="toChange" id="ingredient_toChange"></div>
+                <div class="toChange" id="filter_toChange">menuFiltre</div>
+                <div class="toChange" id="ingredient_toChange">menuIngredients</div>
             </div>
 
             <div id="logo"><img src="photo/logo_test1.png" alt="logo de vide ton frigo"/></div>
@@ -47,8 +46,7 @@
             <h3>Tout droits réservés 2023</h3>
             <a href="">Menions Légales</a>
         </footer>
-    </div>
-
+<script src="script.js"></script>
 </body>
 </html>
 

@@ -68,6 +68,18 @@ footer {
   width: 80px;
 }
 
+#links_toChange {
+  display: none;
+}
+
+#filter_toChange {
+  display: none;
+}
+
+#ingredient_toChange {
+  display: none;
+}
+
 #container_toChange {
   position: absolute;
   z-index: 2;
