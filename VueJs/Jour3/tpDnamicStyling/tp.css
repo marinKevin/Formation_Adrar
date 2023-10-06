@@ -1,0 +1,15 @@
+.maClasseHello {
+    background-color: steelblue;
+    font-family: Impact;
+    color: beige;
+}
+.maClasseWorld {
+    background-color: rgb(200, 0, 255);
+    color: chartreuse;
+}
+.maClasseHidden {
+    display: none;
+}
+.maClasseVisible {
+    display: block;
+}
